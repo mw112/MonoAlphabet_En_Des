@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Monoalphabetic Substitution</title>
+</head>
+<body>
+    <h1>Mono-alphabetic Substitution</h1>
+    <div class="stripe">
+        <button  class="encrypt mode selected">Encrypt!</button>
+        <button  class="decrypt mode">Decrypt!</button>
+    </div>
+    <div class="container">
+       <div class="square" >
+           <div class="input">
+            <span id="inputType">Plaintext: </span><input id="text" type="text">
+            <br>
+            <span style="margin-top: 25px;">Generated Key:</span>
+            <div class="key"><span id="key"></span></div>
+        </div>
+        <div class="output"><span id="output"></span></div>
+       </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2020 Wunemey. All Rights Reserved</p>
+            <span>|</span>
+            <a href="https://github.com/julesforrest">Github</a>
+    </div>
+    
+   <script src="main.js">
+   </script>
+</body>
+</html>
